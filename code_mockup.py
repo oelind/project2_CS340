@@ -8,6 +8,8 @@
 #the leading nums can be condensed other times it causes
 # the hex-code to be incorrect)
 
+#https://docs.python.org/3/library/stdtypes.html#float.fromhex 
+
 #https://python-reference.readthedocs.io/en/latest/docs/float/hex.html
 #using hex() returns a string of the number as its floating int equivelent--> returns string type specifically so may not
 #be what is causing this error
@@ -20,8 +22,10 @@
 #Using the prefix 0x cann allow for literal values to be stored in hex
 
 
+#potential for the concatnation of the three values stored in the single variable
 
 
+ 
 
 
 
