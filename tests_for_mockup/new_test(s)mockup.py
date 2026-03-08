@@ -28,7 +28,7 @@
 #length of output check (this implies a check for an appropriate amount of
 #leading zeros
 
-def proper_length(input, output):
+def proper_length(output):
     str_output = output.toString()
     if (str_output.length < 8):
         return False
