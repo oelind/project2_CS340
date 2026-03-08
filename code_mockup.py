@@ -25,6 +25,14 @@
 #potential for the concatnation of the three values stored in the single variable
 
 
+#length of output check (this implies a check for an appropriate amount of
+#leading zeros
+
+def proper_length(input, output):
+    str_output = output.toString()
+    if (str_output.length < 8):
+        return False
+
  
 
 
