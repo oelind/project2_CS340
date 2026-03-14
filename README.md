@@ -1,1 +1,0 @@
-CS340 Project 2 - working of fixing the output of code that converts rgb values into hex codes where occasionally the hex translation is only 3 digits instead of 6. The desiged output form for all hex codes generated is to always have 6 digits. Specifically the leading zeros of the converted rgb values that do not require two numbers to represent them.
